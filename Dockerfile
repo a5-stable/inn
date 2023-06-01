@@ -9,7 +9,7 @@ RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash - && apt-get instal
 # install yarn
 RUN npm install --global yarn
 
-ENV APP_ROOT /simplest_rails
+ENV APP_ROOT /inn
 ARG RAILS_ENV=development
 RUN mkdir $APP_ROOT
 WORKDIR $APP_ROOT
